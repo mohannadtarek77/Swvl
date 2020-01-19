@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cba5a95e-a03e-4f4a-b48c-4baeb9896e8e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WTwKcTsWoDKFRHpgUs9O6tBQdI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VezeetaPatient" />
+    <property name="settings.editor.selected.configurable" value="consents" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/tests" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BookARide.BookARide">
+    <configuration name="testttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.testttt" />
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookARide.BookARide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookARide" />
+      <option name="METHOD_NAME" value="BookARide" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignIn.BookARide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignIn" />
+      <option name="METHOD_NAME" value="BookARide" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignIn.SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SignIn" />
+      <option name="METHOD_NAME" value="SignIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BookARide.BookARide" />
+        <item itemvalue="TestNG.SignIn" />
+        <item itemvalue="Application.testttt" />
+        <item itemvalue="TestNG.SignIn.BookARide" />
+        <item itemvalue="TestNG.SignIn.SignIn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cba5a95e-a03e-4f4a-b48c-4baeb9896e8e" name="Default Changelist" comment="" />
+      <created>1579186829847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579186829847</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579226588164">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1579226588163" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579438658588">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579438658588" />
+    <state width="1253" height="206" key="GridCell.Tab.0.bottom" timestamp="1579444052093">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="206" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
+    <state width="1253" height="206" key="GridCell.Tab.0.center" timestamp="1579444052093">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="206" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
+    <state width="1253" height="206" key="GridCell.Tab.0.left" timestamp="1579444052093">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="206" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
+    <state width="1253" height="206" key="GridCell.Tab.0.right" timestamp="1579444052093">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="206" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1579393498204">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579393498204" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1579393498203">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1579393498203" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1579393498202">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1579393498202" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1579393498203">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1579393498203" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1579347019333">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1579347019333" />
+    <state x="246" y="116" width="921" height="498" key="caller.chooser.dialog" timestamp="1579339314387">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="246" y="116" width="921" height="498" key="caller.chooser.dialog/67.27.1299.741@67.27.1299.741" timestamp="1579339314387" />
+    <state x="367" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1579436687498">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="367" y="193" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579436687498" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579442110409">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1579442110409" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+</project>
