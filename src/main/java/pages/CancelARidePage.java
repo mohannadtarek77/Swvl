@@ -23,8 +23,8 @@ public class CancelARidePage  extends PageBase {
     @FindBy(id = " io.swvl.customer:id/confirm_btn")
     WebElement confirmCancel;
 
-    @FindBy(id = "")
-    WebElement slideBar; // selector still
+    @FindBy(className = "android.widget.CheckedTextView")
+    WebElement slideBar;
 
     public void clickMenu() {
         clickButton(menu);
@@ -44,6 +44,7 @@ public class CancelARidePage  extends PageBase {
     public void clickConfirmCancel(){
         clickButton(confirmCancel);
     }
+
     public void cancelRide() {
         Cancel.clickMenu();
         Cancel.clickYourTrips();

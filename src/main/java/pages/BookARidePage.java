@@ -1,7 +1,6 @@
 package pages;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -20,7 +19,7 @@ import org.openqa.selenium.support.FindBy;
         WebElement dropOffField;
 
         @FindBy(id = "io.swvl.customer:id/trip_item_without_date_layout")
-        WebElement clickOnTrip;// maybe wrong selector still not exectued
+        WebElement clickOnTrip;
 
         @FindBy(id = "io.swvl.customer:id/next_btn")
         WebElement nextButton;
@@ -31,7 +30,15 @@ import org.openqa.selenium.support.FindBy;
         @FindBy(id = "io.swvl.customer:id/done_btn")
         WebElement doneButton;
 
-    WebElement getDropOff= driver.findElement(By.id("io.swvl.customer:id/places_rv")).findElement(By.className("android.view.ViewGroup")) ;
+        @FindBy(id = "io.swvl.customer:id/desc_tv")
+        WebElement getPickUp;
+
+        @FindBy(className = "android.view.ViewGroup")
+        WebElement getDropOff;
+
+        @FindBy(id = "io.swvl.customer:id/desc_tv")
+            WebElement clickDropOff;
+
 
         public void EnterPickupPoint(String pickup) {
             clickButton(pickUpField);
@@ -45,6 +52,9 @@ import org.openqa.selenium.support.FindBy;
          public void chooseTrip(){
             clickButton(clickOnTrip);
 }
+        public void clickOnDropOff(){
+            clickButton(clickDropOff);
+        }
         public  void clickNextButton(){
             clickButton(nextButton);
         }
@@ -60,14 +70,20 @@ import org.openqa.selenium.support.FindBy;
         public void chooseDropOff(){
             clickButton(getDropOff);
         }
-        public void bookingRide(String pickup,String dropoff){
+        public CancelARidePage bookingRide(String pickup, String dropoff) throws InterruptedException {
+
             clickWhereTo();
             EnterPickupPoint(pickup);
+            Thread.sleep(3000l);
             EnterDropOff(dropoff);
+            Thread.sleep(3000l);
             chooseDropOff();
+            Thread.sleep(3000l);
+            clickOnDropOff();
             chooseTrip();
             clickNextButton();
             clickBookButton();
             clickDoneButton();
+            return new CancelARidePage(driver);
         }
     }

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cba5a95e-a03e-4f4a-b48c-4baeb9896e8e" name="Default Changelist" comment="" />
+    <list default="true" id="cba5a95e-a03e-4f4a-b48c-4baeb9896e8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BookARidePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BookARidePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CancelARidePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CancelARidePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BookARide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BookARide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CancelARide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CancelARide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SignIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BookARidePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BookARidePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CancelARidePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CancelARidePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BookARide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BookARide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/CancelARide.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/CancelARide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SignIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SignIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WTwKcTsWoDKFRHpgUs9O6tBQdI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../VezeetaPatient" />
     <property name="settings.editor.selected.configurable" value="consents" />
   </component>
@@ -39,9 +60,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookARide.BookARide">
-    <configuration name="testttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.testttt" />
+  <component name="RunManager" selected="TestNG.SignIn.SignInFacebook">
+    <configuration name="BookARide" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swvl" />
       <extension name="coverage">
         <pattern>
@@ -49,6 +69,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookARide" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,6 +89,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.BookARide" />
       <option name="METHOD_NAME" value="BookARide" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelARide.cancelARide" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="swvl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CancelARide" />
+      <option name="METHOD_NAME" value="cancelARide" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +131,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignIn.BookARide" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignIn.SignInFacebook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="swvl" />
       <extension name="coverage">
         <pattern>
@@ -98,25 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SignIn" />
-      <option name="METHOD_NAME" value="BookARide" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignIn.SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="swvl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SignIn" />
-      <option name="METHOD_NAME" value="SignIn" />
+      <option name="METHOD_NAME" value="SignInFacebook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignIn.SignInFacebook" />
+        <item itemvalue="TestNG.CancelARide.cancelARide" />
         <item itemvalue="TestNG.BookARide.BookARide" />
+        <item itemvalue="TestNG.BookARide" />
         <item itemvalue="TestNG.SignIn" />
-        <item itemvalue="Application.testttt" />
-        <item itemvalue="TestNG.SignIn.BookARide" />
-        <item itemvalue="TestNG.SignIn.SignIn" />
       </list>
     </recent_temporary>
   </component>
@@ -168,38 +193,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579438658588" />
-    <state width="1253" height="206" key="GridCell.Tab.0.bottom" timestamp="1579444052093">
+    <state width="1253" height="183" key="GridCell.Tab.0.bottom" timestamp="1579480626938">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="206" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
-    <state width="1253" height="206" key="GridCell.Tab.0.center" timestamp="1579444052093">
+    <state width="1253" height="183" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579480626938" />
+    <state width="1253" height="183" key="GridCell.Tab.0.center" timestamp="1579480626937">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="206" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
-    <state width="1253" height="206" key="GridCell.Tab.0.left" timestamp="1579444052093">
+    <state width="1253" height="183" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579480626937" />
+    <state width="1253" height="183" key="GridCell.Tab.0.left" timestamp="1579480626937">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="206" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
-    <state width="1253" height="206" key="GridCell.Tab.0.right" timestamp="1579444052093">
+    <state width="1253" height="183" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579480626937" />
+    <state width="1253" height="183" key="GridCell.Tab.0.right" timestamp="1579480626937">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="206" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579444052093" />
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1579393498204">
+    <state width="1253" height="183" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579480626937" />
+    <state width="1253" height="245" key="GridCell.Tab.1.bottom" timestamp="1579479279993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579393498204" />
-    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1579393498203">
+    <state width="1253" height="245" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579479279993" />
+    <state width="1253" height="245" key="GridCell.Tab.1.center" timestamp="1579479279993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1579393498203" />
-    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1579393498202">
+    <state width="1253" height="245" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1579479279993" />
+    <state width="1253" height="245" key="GridCell.Tab.1.left" timestamp="1579479279993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1579393498202" />
-    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1579393498203">
+    <state width="1253" height="245" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1579479279993" />
+    <state width="1253" height="245" key="GridCell.Tab.1.right" timestamp="1579479279993">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1579393498203" />
+    <state width="1253" height="245" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1579479279993" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1579347019333">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -212,10 +237,33 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="367" y="193" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579436687498" />
+    <state x="0" y="27" width="710" height="741" key="find.popup" timestamp="1579460225911">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="0" y="27" width="710" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1579460225911" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579442110409">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1579442110409" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/BookARide.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/CancelARide.java</url>
+          <line>34</line>
+          <properties class="tests.CancelARide" method="cancelARide">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

@@ -18,7 +18,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import utilities.AppiumServerJava;
 
 public class TestBase {
-	public static AndroidDriver<AndroidElement> driver;
+	public  AndroidDriver<AndroidElement> driver;
 	private AppiumServerJava appiumServer;
 	@BeforeTest
 	public void setupEnvironment() throws MalformedURLException {

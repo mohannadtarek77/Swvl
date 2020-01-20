@@ -2,6 +2,7 @@ package tests;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import pages.CancelARidePage;
 import pages.SignInPage;
 
 import java.io.FileInputStream;
@@ -32,6 +33,8 @@ public class SignIn extends TestBase {
     public void SignInFacebook(){
         SignInPage Sign = new SignInPage(driver);
         Sign.logInFacebook(email, password);
+        CancelARidePage cancel = new CancelARidePage(driver);
+        cancel.cancelRide();
     }
 
 }

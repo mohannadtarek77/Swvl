@@ -1,18 +1,42 @@
 package tests;
 
-import pages.CancelARidePage;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import pages.SignInPage;
+import pages.BookARidePage;
+import pages.CancelARidePage;
 
-public class CancelARide extends TestBase{
-String email;
-String password;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class CancelARide extends TestBase {
+    String email;
+    String password;
+    String pickUp;
+    String dropOff;
+    @BeforeTest
+    public void getProps() {
+        try (InputStream input = new FileInputStream("src/test/java/tests/data.properties")) {
+
+            Properties prop = new Properties();
+            prop.load(input);
+
+            email = prop.getProperty("email");
+            password =prop.getProperty("password");
+            pickUp = prop.getProperty("pickUp");
+            dropOff =prop.getProperty("dropOff");
+        } catch (IOException io) {
+            io.printStackTrace();
+        }
+    }
 
     @Test
-    public void CancelARide() {
-        SignInPage  Sign = new SignInPage(driver);
-        Sign.logInFacebook(email,password);
-        CancelARidePage Cancel = new CancelARidePage(driver);
-        Cancel.cancelRide();
+    public void cancelARide() throws InterruptedException {
+        BookARidePage book = new BookARidePage(driver);
+        book.bookingRide(pickUp,dropOff);
+        CancelARidePage cancel = new CancelARidePage(driver);
+        cancel.cancelRide();
     }
+
 }

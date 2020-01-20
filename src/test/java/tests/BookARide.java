@@ -31,15 +31,14 @@ public class BookARide extends TestBase{
             io.printStackTrace();
         }
     }
+
     @Test
-
-    public void BookARide(){
+    public void BookARide() throws InterruptedException {
         SignInPage  Sign = new SignInPage(driver);
-        BookARidePage bookARidePage =  Sign.logInFacebook(email,password);
-//        BookARidePage  Book = new BookARidePage(driver);
-         Book.bookingRide(pickUp,dropOff);
+        Sign.logInFacebook(email,password);
+        BookARidePage book = new BookARidePage(driver);
+         book.bookingRide(pickUp,dropOff);
     }
-
 }
 
 
