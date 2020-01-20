@@ -33,8 +33,7 @@ public class SignIn extends TestBase {
     public void SignInFacebook(){
         SignInPage Sign = new SignInPage(driver);
         Sign.logInFacebook(email, password);
-        CancelARidePage cancel = new CancelARidePage(driver);
-        cancel.cancelRide();
+      
     }
 
 }
